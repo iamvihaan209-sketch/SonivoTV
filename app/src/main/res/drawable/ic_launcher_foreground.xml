@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Stylized Sound Wave / Music Note Motif -->
+    <path
+        android:pathData="M30,70 L30,40 C30,30 40,25 50,30 L70,40 L70,75 C70,85 55,85 55,75 C55,65 70,65 70,75 M30,70 C30,80 15,80 15,70 C15,60 30,60 30,70">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="70"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0" android:color="#A020F0" /> <!-- Purple -->
+                <item android:offset="1" android:color="#00F5FF" /> <!-- Teal -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sound Wave Bars -->
+    <path
+        android:pathData="M80,50 L80,65"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#00F5FF" />
+    <path
+        android:pathData="M88,55 L88,60"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#A020F0" />
+    <path
+        android:pathData="M22,45 L22,55"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeColor="#00F5FF" />
+</vector>

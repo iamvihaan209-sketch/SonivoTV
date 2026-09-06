@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0h320v180h-320z" />
+
+    <!-- Decorative Gradient Glow -->
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="160"
+                android:centerY="90"
+                android:gradientRadius="200"
+                android:type="radial">
+                <item android:offset="0" android:color="#22A020F0" />
+                <item android:offset="1" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Note (Icon element) -->
+    <group android:translateX="60" android:translateY="40" android:scaleX="1.2" android:scaleY="1.2">
+        <path
+            android:pathData="M30,70 L30,40 C30,30 40,25 50,30 L70,40 L70,75 C70,85 55,85 55,75 C55,65 70,65 70,75 M30,70 C30,80 15,80 15,70 C15,60 30,60 30,70">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="30"
+                    android:endX="70"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#A020F0" />
+                    <item android:offset="1" android:color="#00F5FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+
+    <!-- Text Placeholder / Logo Style -->
+    <!-- 'S' for Sonivo stylized -->
+    <path
+        android:pathData="M160,70 C160,60 180,60 180,75 C180,90 160,90 160,105 C160,120 180,120 180,110"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- "SONIVO" Text Approximation -->
+    <path
+        android:pathData="M190,110 L200,110 M210,110 L220,110 M230,110 L240,110"
+        android:strokeWidth="4"
+        android:strokeColor="#88FFFFFF" />
+
+</vector>
